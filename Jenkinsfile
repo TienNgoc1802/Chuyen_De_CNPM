@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     environment {
-        CONTAINER_NAME=my-app
-        DATABASE_NAME=MyDatabase
-        DATABASE_PASSWORD=abc123456
-        DATABASE_ROOT_PASSWORD=root_password
-        DATABASE_USER=admin
+        CONTAINER_NAME="my-app"
+        DATABASE_NAME="MyDatabase"
+        DATABASE_PASSWORD="abc123456"
+        DATABASE_ROOT_PASSWORD="root_password"
+        DATABASE_USER="admin"
     }
 
     stages {
